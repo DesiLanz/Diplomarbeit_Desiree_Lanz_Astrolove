@@ -1710,6 +1710,12 @@ a.w--current {
   width: 0.4615em;
   height: 33vh;
   margin-top: 5%;
+  margin-right: 1%;
+  margin-left: 1%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
   font-size: 33vh;
 }
 
@@ -1731,10 +1737,10 @@ a.w--current {
   margin-bottom: 20%;
   padding-right: 3em;
   padding-left: 3em;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1745,6 +1751,44 @@ a.w--current {
   height: 100%;
   border-radius: 0.03em;
   box-shadow: 0 0 30px 5px rgba(37, 31, 68, 0.35);
+}
+
+.links-personen {
+  color: #251f44;
+  line-height: 1.6em;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.credits-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 1em;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.lauftext-credits {
+  max-width: 60%;
+  padding-right: 8%;
+}
+
+.lauftext-credits.abstand-oben {
+  padding-top: 6em;
+}
+
+.grundschrift-1-8em-credits {
+  line-height: 1.3em;
+  letter-spacing: 0.01em;
+}
+
+.grundschrift-1-8em-credits._1-4em {
+  font-size: 1.4em;
+  letter-spacing: 0.03em;
 }
 
 @media screen and (min-width: 1440px) {
@@ -1799,7 +1843,11 @@ a.w--current {
   }
 
   .image-11 {
-    max-width: 40%;
+    max-width: 26%;
+  }
+
+  .image-12 {
+    max-width: 41%;
   }
 
   .logo-icon {
@@ -2253,6 +2301,37 @@ a.w--current {
   .text-einleitung {
     max-width: 60ch;
   }
+
+  .testbox-1 {
+    height: 30vh;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    font-size: 30vh;
+  }
+
+  .testbox-1.versetzt-nach-unten.ausblenden-1 {
+    display: none;
+  }
+
+  .testbox-1.ausblenden-1 {
+    display: none;
+  }
+
+  .lauftext-credits {
+    max-width: 100%;
+    padding-right: 10%;
+  }
+
+  .grundschrift-1-8em-credits {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
+  }
+
+  .grundschrift-1-8em-credits.doku {
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2417,9 +2496,9 @@ a.w--current {
   }
 
   .headervideo-box {
-    height: 28vh;
+    height: 36vh;
     margin-bottom: 46px;
-    font-size: 28vh;
+    font-size: 36vh;
   }
 
   .titel-4em {
@@ -2558,6 +2637,63 @@ a.w--current {
 
   .text-einleitung {
     max-width: 55ch;
+  }
+
+  .testbox-1.versetzt-nach-unten {
+    height: 22vh;
+    margin-right: 1%;
+    margin-left: 1%;
+    font-size: 22vh;
+  }
+
+  .testbox-1.versetzt-nach-oben {
+    height: 22vh;
+    margin-right: 1%;
+    margin-left: 1%;
+    font-size: 22vh;
+  }
+
+  .test-block {
+    padding-right: 2em;
+    padding-left: 2em;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .links-personen {
+    font-size: 1.3rem;
+  }
+
+  .grundschrift-1-8em-credits {
+    font-size: 1.5em;
+    letter-spacing: 0.04em;
+  }
+
+  .grundschrift-1-8em-credits.doku {
+    font-size: 1.3em;
+  }
+
+  .unsplash {
+    font-size: 1.3rem;
+  }
+
+  .nasa {
+    font-size: 1.3rem;
+  }
+
+  .imdb {
+    font-size: 1.3rem;
+  }
+
+  .nuit {
+    font-size: 1.3rem;
+  }
+
+  .google-fonts {
+    font-size: 1.3rem;
   }
 }
 
@@ -2866,6 +3002,10 @@ a.w--current {
     font-size: 36vh;
   }
 
+  .video-frontal-3d-stativ {
+    border-radius: 0.8rem;
+  }
+
   .image-9 {
     max-width: 80%;
   }
@@ -2902,6 +3042,11 @@ a.w--current {
   .bild-statisch {
     margin-right: 0.5em;
     margin-left: 0.5em;
+    border-radius: 0.4rem;
+  }
+
+  .bild-statisch.links {
+    border-radius: 0.4rem;
   }
 
   .bilder-karte-box {
@@ -3059,6 +3204,50 @@ a.w--current {
   .text-zentrieren {
     padding-right: 2em;
     padding-left: 2em;
+  }
+
+  .testbox-1.versetzt-nach-unten {
+    height: 17vh;
+    font-size: 17vh;
+  }
+
+  .testbox-1.versetzt-nach-oben {
+    height: 17vh;
+    font-size: 17vh;
+  }
+
+  .test-block {
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  .credits-box {
+    padding-bottom: 0em;
+  }
+
+  .grundschrift-1-8em-credits {
+    font-size: 1.3em;
+  }
+
+  .grundschrift-1-8em-credits.doku {
+    margin-bottom: 31px;
+    line-height: 1.2em;
+  }
+
+  .grundschrift-1-8em-credits._1-4em {
+    font-size: 1.2em;
+  }
+
+  .heading-5 {
+    margin-bottom: 0px;
+  }
+
+  .heading-6 {
+    margin-bottom: 0px;
+  }
+
+  .heading-7 {
+    margin-bottom: 0px;
   }
 }
 
