@@ -2309,8 +2309,18 @@ a.w--current {
     font-size: 30vh;
   }
 
+  .testbox-1.versetzt-nach-unten {
+    height: 40vh;
+    font-size: 40vh;
+  }
+
   .testbox-1.versetzt-nach-unten.ausblenden-1 {
     display: none;
+  }
+
+  .testbox-1.versetzt-nach-oben {
+    height: 40vh;
+    font-size: 40vh;
   }
 
   .testbox-1.ausblenden-1 {
@@ -2640,17 +2650,27 @@ a.w--current {
   }
 
   .testbox-1.versetzt-nach-unten {
-    height: 22vh;
+    height: 45vh;
     margin-right: 1%;
     margin-left: 1%;
-    font-size: 22vh;
+    font-size: 45vh;
+  }
+
+  .testbox-1.versetzt-nach-unten.ausblenden-1 {
+    display: block;
   }
 
   .testbox-1.versetzt-nach-oben {
-    height: 22vh;
-    margin-right: 1%;
-    margin-left: 1%;
-    font-size: 22vh;
+    height: 45vh;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 45vh;
+  }
+
+  .testbox-1.ausblenden-1 {
+    display: block;
+    height: 45vh;
+    font-size: 45vh;
   }
 
   .test-block {
@@ -3054,6 +3074,14 @@ a.w--current {
     margin-bottom: 40px;
   }
 
+  .lauftext {
+    max-width: 100%;
+  }
+
+  .lauftext.abstand-oben {
+    max-width: none;
+  }
+
   .body-style-guide {
     padding-right: 16px;
     padding-left: 16px;
@@ -3116,13 +3144,14 @@ a.w--current {
   }
 
   .inhalt-doku {
-    padding-left: 1.5em;
+    max-width: 100%;
+    padding-left: 1em;
   }
 
   .doku-inhalt-block {
     position: static;
     left: 0%;
-    min-width: 70%;
+    min-width: 30%;
   }
 
   .doku-bild {
@@ -3140,10 +3169,6 @@ a.w--current {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-  }
-
-  .doku-bild.abstand-oben {
-    width: 100%;
   }
 
   .doku-block-bild-text {
@@ -3207,13 +3232,21 @@ a.w--current {
   }
 
   .testbox-1.versetzt-nach-unten {
-    height: 17vh;
-    font-size: 17vh;
+    height: 26vh;
+    font-size: 26vh;
+  }
+
+  .testbox-1.versetzt-nach-unten.ausblenden-1 {
+    display: none;
   }
 
   .testbox-1.versetzt-nach-oben {
-    height: 17vh;
-    font-size: 17vh;
+    height: 26vh;
+    font-size: 26vh;
+  }
+
+  .testbox-1.ausblenden-1 {
+    display: none;
   }
 
   .test-block {
