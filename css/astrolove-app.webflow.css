@@ -524,7 +524,7 @@ a.w--current {
   display: -ms-flexbox;
   display: flex;
   padding-top: 14em;
-  padding-bottom: 0em;
+  padding-bottom: 2em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2829,7 +2829,7 @@ a.w--current {
 
   .footer {
     padding-top: 6em;
-    padding-bottom: 0em;
+    padding-bottom: 2em;
   }
 
   .form-2 {
